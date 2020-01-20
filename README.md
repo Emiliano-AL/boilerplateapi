@@ -17,8 +17,8 @@ Sistema de Autenticación API Rest:
 ## Docs
 
 > **Nota:** Para la correcta utilización, hay que configurar las siguientes dos cabeceras:
-> Content-Type: application/json  
-> X-Requested-With: XMLHttpRequest
+>  - Content-Type: application/json  
+>  - X-Requested-With: XMLHttpRequest
 
 ### Crear usuario
 **POST** http://boilerplateapi.test/api/v1/signup
