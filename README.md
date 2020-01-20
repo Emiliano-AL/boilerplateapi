@@ -11,4 +11,35 @@ Sistema de Autenticación API Rest:
 - Installar passport: composer require laravel/passport.
 
 
-Fuente [https://medium.com/@cvallejo/sistema-de-autenticaci%C3%B3n-api-rest-con-laravel-5-6-240be1f3fc7d]
+[Fuente: Seguridad API ](https://medium.com/@cvallejo/sistema-de-autenticaci%C3%B3n-api-rest-con-laravel-5-6-240be1f3fc7d)
+
+
+## Docs
+
+### Crear usuario
+**POST** http://boilerplateapi.test/api/v1/signup
+ - name
+ - email
+ - password
+ - password_confirmation
+ 
+ ### Login user
+**POST**  http://boilerplateapi.test/api/v1/login
+
+    {
+    	"email":"usuario@mail.com",
+    	"password":"contraseña",
+    	"remeber_me":true
+    }
+
+### Get User
+**GET** http://boilerplateapi.test/api/v1/user
+
+### Logout
+**GET** http://boilerplateapi.test/api/v1/logout
+
+### Get Customer
+**GET** http://boilerplateapi.test/api/v1/customers/3
+
+
+[Fuente: API Laravel 6](https://kode-blog.io/laravel-5-rest-api)
